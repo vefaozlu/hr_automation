@@ -1,7 +1,3 @@
-node_modules/
-# Tüm .DS_Store dosyalarını yoksay
+node_modules
 **/.DS_Store
-# Tüm .env dosyalarını yoksay
-**/.env
-# Tüm .env.local dosyalarını yoksay
-**/.env.local
+.env
