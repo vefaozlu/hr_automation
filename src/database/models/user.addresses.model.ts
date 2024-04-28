@@ -49,15 +49,6 @@ UserAddresses.init({
     is_primary: {
         type: DataTypes.BOOLEAN,
         allowNull: false
-    },
-    created_at: {
-        type: DataTypes.DATE
-    },
-    updated_at: {
-        type: DataTypes.DATE
-    },
-    deleted_at: {
-        type: DataTypes.DATE
     }
 }, {
     sequelize,
